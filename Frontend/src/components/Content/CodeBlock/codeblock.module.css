@@ -1,0 +1,59 @@
+.codeBlock {
+    text-align: left;
+    position: relative;
+    background-color: #282c34;
+    color: #abb2bf;
+    padding: 20px;
+    border-radius: 0px;
+    margin: 0px 0;
+    align-items: flex-start;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .pre {
+    margin: 0;
+    overflow: auto;
+    align-items: sta;
+  }
+  
+  .button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #61dafb;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 0px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .button:hover {
+    background: #21a1f1;
+  }
+  /* CodeBlock.module.css */
+.codeBlockContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+
+.textContainer {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-left:40px;
+    height: 470px;
+    flex-grow: 1; /* Добавлено */
+    color: black;
+  }
+  
+  .codeBlock {
+    width: 50%; 
+    margin-left: auto; 
+  }
+  
+  
+  

@@ -5,6 +5,8 @@
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: rgb(237,134,184);
+background: linear-gradient(155deg, rgba(237,134,184,1) 0%, rgba(253,253,255,1) 91%, rgba(253,253,255,1) 100%);
   }
   
   .logo {

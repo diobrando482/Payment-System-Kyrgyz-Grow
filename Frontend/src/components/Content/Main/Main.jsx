@@ -8,7 +8,7 @@ const Main = () => {
       <main className={styles.mainContainer}>
         <div className={styles.textImageContainer}>
           <div className={styles.textContainer}>
-            <h1 className={styles.title}>Легкие и безопасные онлайн-платежи</h1>
+            <h1 className={styles.title}>Легкие <br /> и безопасные </h1>
             <h2 className={styles.subtitle}>ОНЛАЙН-ПЛАТЕЖИ</h2>
             <p className={styles.description}>
               Миллионы компаний всех размеров используют Наш сервис онлайн и лично для приема платежей, отправки выплат, автоматизации финансовых процессов и увеличения доходов.
