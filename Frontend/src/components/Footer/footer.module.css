@@ -1,0 +1,18 @@
+.Footer{
+    display: flex;
+    background-color: white;
+    color: black;
+}
+.Footer span{
+    margin-left: 30px;
+}
+
+.Footer ul{
+    display: flex;
+    margin: 0 10px;
+    list-style-type: none;
+    margin: 0 0 0 600px;
+}
+.Footer ul li {
+    margin: 10px;
+}

@@ -5,6 +5,7 @@ import  ContentTwo  from './components/Content/SecondTypeOfContent/Content';
 import CodeBlock from './components/Content/CodeBlock';
 import Explain from './components/Content/Explain/Explain';
 import Video from './components/Content/Video';
+import Footer from './components/Footer';
 import styles from "./App.css";
 
 
@@ -18,6 +19,7 @@ const App = () => {
       <CodeBlock/>
       <Explain />
       <Video/>
+      <Footer/>
     </div>
   );
 };

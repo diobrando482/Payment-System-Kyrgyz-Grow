@@ -1,4 +1,12 @@
 .VideoContainer{
     background-color: white;
     background-image: url('./../../../assets/back_test.png');
+    height: 64vw;
+}
+.tittle{
+    margin-top: 60px;
+}
+.reviews a{
+    color: #68D585;
+    
 }
