@@ -1,0 +1,62 @@
+.mainContainer {
+    display: flex;
+    justify-content: center; /* Центрирование контейнера на странице */
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  }
+  
+  .textImageContainer {
+    display: flex;
+    align-items: center; /* Вертикальное выравнивание элементов по центру */
+    max-width: 1200px; /* Установите максимальную ширину */
+    width: 100%; /* Занимает всю ширину контейнера */
+    background-color: #fff; /* Фон контейнера */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тень для контейнера */
+    border-radius: 8px; /* Скругленные углы */
+    overflow: hidden; /* Обрезка содержимого, выходящего за пределы контейнера */
+  }
+  
+  .textContainer {
+    flex: 1; /* Занимает все доступное пространство */
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .subtitle {
+    font-size: 24px;
+    color: #ff4081;
+    margin: 10px 0;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .startButton {
+    background-color: #ff4081;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .startButton:hover {
+    background-color: #e0356e;
+  }
+  
+  .image {
+    flex: 1; /* Занимает все доступное пространство */
+    max-width: 100%; /* Максимальная ширина изображения */
+    height: auto; /* Автоматическая высота изображения */
+    object-fit: cover; /* Изображение будет обрезано, если не помещается */
+  }
+  
